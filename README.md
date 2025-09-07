@@ -1,6 +1,6 @@
 # PDFium Fonts (SFD Fork)
 
-This repository is a fork of the **[PDFium project fonts](https://pdfium.googlesource.com/pdfium/+/refs/heads/main/core/fonts/)**, 
+This repository is a fork of the **[PDFium project fonts](https://pdfium.googlesource.com/pdfium/)**, 
 maintained in **[SFD (Spline Font Database)](https://fontforge.org/docs/techref/sfdformat.html)** format.  
 
 The goal is to make the fonts easier to inspect, modify, and convert using free and open-source tools 
