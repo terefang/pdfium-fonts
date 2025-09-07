@@ -13,6 +13,6 @@ build:
     for x in {{XSRC}}/*.sfd; do
         f=$(basename $x .sfd)
         for y in pfb ttf otf; do
-             ~/bin/ttf2pfb.sh $x {{XDIST}}/$y/$f.$y
+             fontforge -lang=ff -c 'Open($1); Generate($2)' $x {{XDIST}}/$y/$f.$y
         done
     done
